@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "LEMONMILK-BoldItalic";
+  src: local("LEMONMILK-BoldItalic"),
+    url("assets/fonts/lemon_milk/LEMONMILK-BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LEMONMILK-Regular";
+  src: local("LEMONMILK-Regular"),
+    url("assets/fonts/lemon_milk/LEMONMILK-Regular.otf") format("opentype");
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #eeeeee;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  min-height: 15vh;
+}
+
+.header .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .title .top {
+  font-family: "LEMONMILK-BoldItalic", sans-serif;
+  font-size: 3vw;
+}
+
+.header .title .bottom {
+  font-family: "LEMONMILK-Regular", sans-serif;
+  font-size: 2vw;
+}
+
+.header p {
+  margin: 0;
+}
+
+.header img {
+  width: 13vw;
+  height: auto;
+}
+
+@media (max-width: 425px) {
+  .header {
+    justify-content: center;
+  }
+
+  .header img {
+    width: 35vw;
+    height: auto;
+  }
+
+  .header .title .top {
+    font-size: 8vw;
+  }
+
+  .header .title .bottom {
+    font-size: 6vw;
+  }
+}

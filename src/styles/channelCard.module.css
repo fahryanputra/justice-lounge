@@ -1,0 +1,27 @@
+.loading {
+  width: 80vw;
+  height: 50vh;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eeeeee;
+}
+
+.cards {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1.5fr 1fr;
+  row-gap: 1rem;
+}
+
+@media (max-width: 720px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}

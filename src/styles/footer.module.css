@@ -1,0 +1,13 @@
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  min-height: 5vh;
+}
+
+.footer p {
+  margin: 0;
+}

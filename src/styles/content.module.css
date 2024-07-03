@@ -1,0 +1,39 @@
+.content {
+  color: #222831;
+  min-height: 80vh;
+  padding: 0 10vw;
+}
+
+.content h2 {
+  margin: 0 0 1rem 0;
+  color: #eeeeee;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.content h2,
+.content h2 span {
+  font-size: 2.5vw;
+}
+
+.content section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3vw;
+}
+
+@media (max-width: 720px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .content h2,
+  .content h2 span {
+    text-align: center;
+    font-size: 6vw;
+  }
+}
