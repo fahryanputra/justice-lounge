@@ -1,3 +1,5 @@
+const API_KEY = import.meta.env.VITE_SOME_KEY;
+
 async function fetchChannelData(channelId) {
   const response = await fetch(
     `https://youtube.googleapis.com/youtube/v3/channels?part=snippet&id=${channelId}&key=${API_KEY}`,
