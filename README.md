@@ -1,8 +1,21 @@
-# React + Vite
+# Justice Lounge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application to display Hololive Justice's youtube channel subscriber counts, total video and total views. This web application also features a video player to show a curated live streams and videos from Hololive Justice.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Link to live demo](https://justice-lounge.vercel.app/)
+
+## Built With
+
+- React
+
+## Authors
+
+- Github: [@fahryanputra](https://www.github.com/fahryanputra)
+- Email: [fahryandi.herlasmara@gmail.com](fahryandi.herlasmara@gmail.com)
+
+## Acknowledgements
+
+- [Google Font](https://fonts.google.com/)
+- [YouTube](https://www.youtube.com/)
